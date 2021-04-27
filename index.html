@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JS URBAN DICTIONARY FETCH
+        </title>
+    </head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        body{margin: 0px;
+        padding: 0px;}
+        #header{width: 100%;
+        height: 100px;
+        background-color: black;
+        margin: 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        #logo{font-weight: 500;}
+        #forms{margin: 0px 0px;
+            width: 100%;
+            height: 100px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #result{ margin: 10px 10px;
+            min-width: 50%;
+         
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        flex-wrap: wrap;}
+        .definition{ 
+            min-height: 60px;
+            background-color: red;
+        color: white;   
+        }
+        .example{ background-color: red;
+        color: white;
+        min-height: 60px;
+         }
+         @media only screen and (max-width:1024px){
+            body{margin: 0px;
+        padding: 0px;}
+        #header{width: 100%;
+        height: 170px;
+        background-color: black;
+        margin: 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        #logo{font-weight: 700;}
+        #forms{margin: 0px 0px;
+            width: 100%;
+            height: 170px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #result{ margin: 10px 10px;
+            min-width: 50%;
+         
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        flex-wrap: wrap;}
+        .definition{ 
+            min-height: 60px;
+            background-color: red;
+        color: white;   
+        }
+        .example{ background-color: red;
+        color: white;
+        min-height: 60px;
+         }
+         }
+         @media only screen and (max-width:768px){
+            body{margin: 0px;
+        padding: 0px;}
+        #header{width: 100%;
+        height: 150px;
+        background-color: black;
+        margin: 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        #logo{font-weight: 700;}
+        #forms{margin: 0px 0px;
+            width: 100%;
+            height: 150px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #result{ margin: 10px 10px;
+            min-width: 50%;
+         
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        flex-wrap: wrap;}
+        .definition{ 
+            min-height: 60px;
+            background-color: red;
+        color: white;   
+        }
+        .example{ background-color: red;
+        color: white;
+        min-height: 60px;
+         }
+         }
+         @media only screen and (max-width:540px){
+            body{margin: 0px;
+        padding: 0px;}
+        #header{width: 100%;
+        height: 120px;
+        background-color: black;
+        margin: 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        #logo{font-weight: 700;}
+        #forms{margin: 0px 0px;
+            width: 100%;
+            height: 120px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #result{ margin: 10px 10px;
+            min-width: 50%;
+         
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        flex-wrap: wrap;}
+        .definition{ 
+            min-height: 60px;
+            background-color: red;
+        color: white;   
+        }
+        .example{ background-color: red;
+        color: white;
+        min-height: 60px;
+         }
+         }
+         @media only screen and (max-width:414px){
+            body{margin: 0px;
+        padding: 0px;}
+        #header{width: 100%;
+        height: 150px;
+        background-color: black;
+        margin: 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        #logo{font-weight: 700;}
+        #forms{margin: 0px 0px;
+            width: 100%;
+            height: 150px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #result{ margin: 10px 10px;
+            min-width: 50%;
+         
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        flex-wrap: wrap;}
+        .definition{ 
+            min-height: 60px;
+            background-color: red;
+        color: white;   
+        }
+        .example{ background-color: red;
+        color: white;
+        min-height: 60px;
+         }
+         }
+         @media only screen and (max-width:411px){
+            body{margin: 0px;
+        padding: 0px;}
+        #header{width: 100%;
+        height: 130px;
+        background-color: black;
+        margin: 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        #logo{font-weight: 700;}
+        #forms{margin: 0px 0px;
+            width: 100%;
+            height: 130px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #result{ margin: 10px 10px;
+            min-width: 50%;
+         
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        flex-wrap: wrap;}
+        .definition{ 
+            min-height: 60px;
+            background-color: red;
+        color: white;   
+        }
+        .example{ background-color: red;
+        color: white;
+        min-height: 60px;
+         }
+         }
+        
+        
+    </style>
+    <body>
+        <div id="header">
+            <div id="logo">URBAN DICTIONORY</div>
+        </div>
+        <div id="forms">
+            <input type="text" id="Word" placeholder="ENTER A WORD">
+            <button id="searchDetails">searchDetails</button>
+        </div>
+        <div id="result">
+            </div>
+            
+    </body>
+    <script>
+        var Word=document.getElementById("Word");
+        var searchDetails=document.getElementById("searchDetails");
+        
+         var meaningWord=[];
+         var result=document.getElementById("result");
+       
+        
+        searchDetails.addEventListener("click",function(e){
+            e.preventDefault();
+            
+            fetch("https://mashape-community-urban-dictionary.p.rapidapi.com/define?term="+Word.value, {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "454bb582f6mshfa921faf1869e6cp122daejsn5179fb100092",
+		"x-rapidapi-host": "mashape-community-urban-dictionary.p.rapidapi.com"
+	}
+})
+            .then((response)=>{
+                return response.json();
+            })
+            .then((data)=>{
+                console.log(data.list);
+                meaningWord=data.list;
+                renderList();
+            })
+            .catch(err=>{
+                console.log(err);
+            })
+
+        })
+        function renderList(){
+            let res="";
+            for(let i=0;i<meaningWord.length;i++){
+                var single=meaningWord[i];
+                var html=`<ol><div class="definition"><li>"definition":${single.definition}</li></ul></div>
+                   <div class="example"><ul><li>"example":${single.example}</li></div></ol>
+        </div>`;
+        res+=html;
+            }
+            result.innerHTML=res;
+        }
+
+    </script>
+</html>
